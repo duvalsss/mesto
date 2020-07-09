@@ -1,0 +1,20 @@
+@import url(./__image/element__image.css);
+@import url(./__subscription/element__subscription.css);
+@import url(./__title/element.title.css);
+@import url(./__like/element__like.css);
+
+.element {
+  font-family: "Inter", Arial, sans-serif;
+    border-radius: 10px;
+    background-color: #fff;
+  overflow: hidden;
+
+}
+
+
+.element__like:focus {
+  outline: none;
+}
+.element__like:hover {
+  opacity: .6;
+}

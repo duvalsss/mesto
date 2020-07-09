@@ -1,0 +1,14 @@
+@import url(./__content/page__content.css);
+
+
+  .page {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+  }
+
+ 

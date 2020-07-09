@@ -1,0 +1,33 @@
+@import url(./__logo/header__logo.css);
+
+
+.header {
+  border: 1px solid red;;
+    font-family: 'Inter', Arial, sans-serif;
+    display: flex;
+    margin: 0 auto;
+    padding: 45px 0px 40px;
+    box-sizing: border-box;
+    max-width: calc(100% - 398px);
+    border-bottom: 1px solid #545454b3;
+ 
+    
+  }
+
+  @media screen and (max-width: 1024px){
+    .header {
+      max-width: calc(100% - 80px);
+     
+    }
+  }
+
+  
+
+  @media screen and (max-width: 450px){
+    .header {
+      padding: 28px 27px 31px;
+      max-width: 100%
+    }
+  }
+
+

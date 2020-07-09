@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Места России</title>
+  </head>
+  <body class="page">   
+      <div class="page__content">
+        <header class="header section">
+          <img class="header__logo" src="./images/logo.svg" alt="Логотип Место Россия">
+        </header>
+        <main class="content">
+          <section class="profile">
+            <img src="./images/profile-avatar.png" alt="Мой аватар" class="profile__avatar">
+            <div class="profile__info">
+              <h1 class="profile__name">Жак-Ив Кусто</h1>
+              <button class="profile__edit-button"></button>
+              <p class="profile__job">Исследователь океана</p>
+            </div>
+            <button class="profile__add-button"></button>
+          </section>
+          <section class="elements">
+            <ul class="elements__list">
+              <li class="element">
+                <img src="./images/moscow.jpg" alt="Москва" class="element__image">
+                <div class="element__subscription">
+                  <h2 class="element__title">Москва</h2>
+                  <button class="element__like"></button>
+                </div>
+              </li>
+              <li class="element">
+                <img src="./images/nyc.jpg" alt="Нью-Йорк" class="element__image">
+                <div class="element__subscription">
+                  <h2 class="element__title">Нью-Йорк</h2>
+                  <button class="element__like"></button>
+                </div>
+              </li>
+              <li class="element">
+                <img src="./images/london.jpg" alt="Лондон" class="element__image">
+                <div class="element__subscription">
+                  <h2 class="element__title">Лондон</h2>
+                  <button class="element__like"></button>
+                </div>
+              </li>
+              <li class="element">
+                <img src="./images/tokyo.jpg" alt="Токио" class="element__image">
+                <div class="element__subscription">
+                  <h2 class="element__title">Токио</h2>
+                  <button class="element__like"></button>
+                </div>
+              </li>
+              <li class="element">
+                <img src="./images/singapore.jpg" alt="Сингапур" class="element__image">
+                <div class="element__subscription">
+                  <h2 class="element__title">Сингапур</h2>
+                  <button class="element__like"></button>
+                </div>
+              </li>
+                <li class="element">
+                <img src="./images/new-delhi.jpg" alt="Нью-Дели" class="element__image">
+                <div class="element__subscription">
+                  <h2 class="element__title">Нью-Дели</h2>
+                  <button class="element__like"></button>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </main>
+        <footer class="footer">
+          <p class="footer__copyright">&copy; 2020 Дмитрий Трифонов</p>
+        </footer>
+    </div>
+    <div class="popup">
+      <div class="popup__container">
+        <button class="popup__close-button"></button>
+        <h2 class="popup__title">Редактировать профиль</h2>
+        <form action="#" class="popup__form">
+          <input type="text" class="popup__text popup__text-name" value="Жак-Ив Кусто">
+          <input type="text" class="popup__text popup__text-job" value="Исследователь океана">
+          <button type="submit" class="popup__submit-button">Сохранить</button>
+        </form>
+    </div>
+    </div>
+   <script src="./blocks/scripts/index.js"></script>
+  </body>
+</html>

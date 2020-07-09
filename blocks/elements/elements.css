@@ -1,0 +1,18 @@
+
+@import url(./__list/elements__list.css);
+
+
+.elements {
+font-family: 'Inter', Arial, sans-serif;
+ max-width: calc(100% - 398px);
+ margin: 0 auto;
+box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px){
+    .elements {
+      
+      max-width: calc(100% - 80px);
+     
+    }
+  }
