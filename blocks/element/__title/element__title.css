@@ -7,7 +7,6 @@
     box-sizing: border-box;
     max-width: 200px;
     padding-right: 10px;
-  
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
